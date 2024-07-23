@@ -1,9 +1,9 @@
 import clsx from "clsx";
-import css from "./FriendList.module.css";
+import css from "../FriendList/FriendList.module.css";
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
-    <div>
+    <>
       <ul className={css.friendsList}>
         <li className={css.friendsListItem}>
           <img
@@ -23,7 +23,7 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
           </p>
         </li>
       </ul>
-    </div>
+    </>
   );
 };
 

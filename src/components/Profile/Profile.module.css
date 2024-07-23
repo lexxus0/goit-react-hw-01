@@ -4,9 +4,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* margin-left: 50px; */
-  width: 330px;
-  margin: 0 auto;
+  width: 236px;
+  margin: 20px auto;
 }
 
 .cardWrapper {
@@ -35,13 +34,14 @@
 }
 
 .profileStatsListItem {
-  min-width: 80px;
+  width: 80px;
   text-align: center;
   display: flex;
   flex-direction: column;
   border-top: 1px solid gray;
   border-right: 1px solid gray;
-  padding: 15px;
+  padding: 5px;
+  padding-bottom: 10px;
 }
 
 .profileTag {
@@ -52,7 +52,7 @@
 
 .profileLocation {
   margin-top: 5px;
-  margin-bottom: 10px;
+  padding-bottom: 15px;
   color: rgb(195, 195, 195);
 }
 
